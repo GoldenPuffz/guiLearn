@@ -1,0 +1,19 @@
+core is QTapplication class
+you only need 1 instance of application
+it holds the application event loop
+Ecent loop
+QTapplication.exec_()
+Every action with your application creates an event wether it be pressing a key etc. These are added to an event que.
+
+you can have as many windows in an application as you'd like but you need at least 1
+Application will exit when last main window is closed
+
+Signals are something emitted by widgets when something happens
+Slots is the name Qt uses for the name of receivers
+
+
+
+pyuic5 -x firstDesign.ui -o  firstDesign.py
+^
+|
+Important to create the code from Qtdesigner
